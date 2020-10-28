@@ -1,0 +1,466 @@
+{
+  "category": [
+    {
+      "id": "78048aec-d317-4194-ab24-5a59ff54c786",
+      "name": "Category 0",
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Category 0"
+    },
+    {
+      "id": "05e055d6-ef37-4ee0-987e-d04c09a0d7c2",
+      "name": "Category 1",
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Category 1"
+    },
+    {
+      "id": "e8caa9b6-ecc0-466a-afb3-a200966a00f2",
+      "name": "Category 2",
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Category 2"
+    },
+    {
+      "id": "53e90f58-3eef-4b5e-bed2-a80784c0f108",
+      "name": "Category 3",
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Category 3"
+    },
+    {
+      "id": "9353f4ab-9e54-4b55-b4a6-bcf0cc3e7c50",
+      "name": "Category 4",
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Category 4"
+    }
+  ],
+  "product": [
+    {
+      "id": "6331d031-c580-4b22-b52f-974bf7a7d9ce",
+      "name": "Product 0",
+      "price": 14,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 0",
+      "categoryId": "05e055d6-ef37-4ee0-987e-d04c09a0d7c2"
+    },
+    {
+      "id": "52f8c987-5c4d-4128-83c9-fc6830875c72",
+      "name": "Product 1",
+      "price": 4,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 1",
+      "categoryId": "78048aec-d317-4194-ab24-5a59ff54c786"
+    },
+    {
+      "id": "0d06bf1f-a39b-4c91-9938-c535bc7fc026",
+      "name": "Product 2",
+      "price": 15,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 2",
+      "categoryId": "e8caa9b6-ecc0-466a-afb3-a200966a00f2"
+    },
+    {
+      "id": "8c66224f-9884-494b-9d02-578c446d428e",
+      "name": "Product 3",
+      "price": 22,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 3",
+      "categoryId": "78048aec-d317-4194-ab24-5a59ff54c786"
+    },
+    {
+      "id": "aa95a8d9-b8fb-4907-9b44-284911d65a44",
+      "name": "Product 4",
+      "price": 18,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 4",
+      "categoryId": "05e055d6-ef37-4ee0-987e-d04c09a0d7c2"
+    },
+    {
+      "id": "309f0a57-92c9-42e6-bdb2-b95c98ac4298",
+      "name": "Product 5",
+      "price": 6,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 5",
+      "categoryId": "e8caa9b6-ecc0-466a-afb3-a200966a00f2"
+    },
+    {
+      "id": "8d3dc450-517b-44f0-adfa-603d21aee431",
+      "name": "Product 6",
+      "price": 11,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 6",
+      "categoryId": "78048aec-d317-4194-ab24-5a59ff54c786"
+    },
+    {
+      "id": "6dbf316e-e24b-4c5b-8d84-84731df2eed3",
+      "name": "Product 7",
+      "price": 21,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 7",
+      "categoryId": "05e055d6-ef37-4ee0-987e-d04c09a0d7c2"
+    },
+    {
+      "id": "866222df-6dd6-491a-a5c5-27f7bb7c1c47",
+      "name": "Product 8",
+      "price": 6,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 8",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    },
+    {
+      "id": "aea7701c-f405-4491-8fe6-82c5335e4a96",
+      "name": "Product 9",
+      "price": 2,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 9",
+      "categoryId": "05e055d6-ef37-4ee0-987e-d04c09a0d7c2"
+    },
+    {
+      "id": "e247b172-2821-4366-951c-ccd684198e45",
+      "name": "Product 10",
+      "price": 13,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 10",
+      "categoryId": "e8caa9b6-ecc0-466a-afb3-a200966a00f2"
+    },
+    {
+      "id": "ef1c5798-712f-49cb-865f-268abf63f335",
+      "name": "Product 11",
+      "price": 20,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 11",
+      "categoryId": "e8caa9b6-ecc0-466a-afb3-a200966a00f2"
+    },
+    {
+      "id": "b96a1728-497d-4e27-91e8-3232959b846b",
+      "name": "Product 12",
+      "price": 8,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 12",
+      "categoryId": "78048aec-d317-4194-ab24-5a59ff54c786"
+    },
+    {
+      "id": "ffefcc4c-a2c9-499e-ba2e-d242c25fa977",
+      "name": "Product 13",
+      "price": 13,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 13",
+      "categoryId": "05e055d6-ef37-4ee0-987e-d04c09a0d7c2"
+    },
+    {
+      "id": "0a6bdec4-2346-4985-a0fa-41a644a99f87",
+      "name": "Product 14",
+      "price": 3,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 14",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    },
+    {
+      "id": "02d2aada-d380-400f-90cf-b1a16d074c51",
+      "name": "Product 15",
+      "price": 8,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 15",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    },
+    {
+      "id": "765506f1-6430-4c5a-ba5c-9090886196c5",
+      "name": "Product 16",
+      "price": 11,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 16",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    },
+    {
+      "id": "b942a4fe-b243-4220-9ff7-a7be7c205063",
+      "name": "Product 17",
+      "price": 6,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 17",
+      "categoryId": "78048aec-d317-4194-ab24-5a59ff54c786"
+    },
+    {
+      "id": "c1934865-77d8-449a-bac3-29dfe0a12189",
+      "name": "Product 18",
+      "price": 24,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 18",
+      "categoryId": "05e055d6-ef37-4ee0-987e-d04c09a0d7c2"
+    },
+    {
+      "id": "86d21513-efb9-49b1-b3ce-2465eb056252",
+      "name": "Product 19",
+      "price": 19,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 19",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    },
+    {
+      "id": "f32657e1-063a-47f9-ab0c-5aa554b976bb",
+      "name": "Product 20",
+      "price": 9,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 20",
+      "categoryId": "e8caa9b6-ecc0-466a-afb3-a200966a00f2"
+    },
+    {
+      "id": "38b67036-0cdf-408a-a9ae-191973532c03",
+      "name": "Product 21",
+      "price": 15,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 21",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    },
+    {
+      "id": "d9b0a44d-d3b1-4072-9d8c-05bab37e0120",
+      "name": "Product 22",
+      "price": 20,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 22",
+      "categoryId": "78048aec-d317-4194-ab24-5a59ff54c786"
+    },
+    {
+      "id": "a81ae7b0-8035-4fde-be6c-fa9a53b1741c",
+      "name": "Product 23",
+      "price": 20,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 23",
+      "categoryId": "e8caa9b6-ecc0-466a-afb3-a200966a00f2"
+    },
+    {
+      "id": "9f69c381-8e67-4515-bf4b-0a6c2f349c69",
+      "name": "Product 24",
+      "price": 22,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 24",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    },
+    {
+      "id": "ffcf4ec9-f5dd-4e02-abf1-c54168db8b4b",
+      "name": "Product 25",
+      "price": 7,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 25",
+      "categoryId": "05e055d6-ef37-4ee0-987e-d04c09a0d7c2"
+    },
+    {
+      "id": "4cc59750-a214-437a-9714-cf4239b75a2e",
+      "name": "Product 26",
+      "price": 7,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 26",
+      "categoryId": "e8caa9b6-ecc0-466a-afb3-a200966a00f2"
+    },
+    {
+      "id": "2d22a368-24ce-4cba-a657-43d84a4eb8d4",
+      "name": "Product 27",
+      "price": 11,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 27",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    },
+    {
+      "id": "134b259b-70f0-4322-bda0-900136d08056",
+      "name": "Product 28",
+      "price": 18,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 28",
+      "categoryId": "78048aec-d317-4194-ab24-5a59ff54c786"
+    },
+    {
+      "id": "e4b390da-48c3-435f-8d84-4632393a573f",
+      "name": "Product 29",
+      "price": 24,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 29",
+      "categoryId": "53e90f58-3eef-4b5e-bed2-a80784c0f108"
+    }
+  ],
+  "cart": [
+    {
+      "id": "b35c347b-1ee5-4247-8ea0-b38c126e4022",
+      "status": "SUBMITTED",
+      "total": 58,
+      "orderItems": [
+        {
+          "id": "bbee0cea-7858-43c8-970e-be95c7cc59bc",
+          "name": "Product 3",
+          "quantity": 1,
+          "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 3",
+          "price": 22,
+          "cartId": "b35c347b-1ee5-4247-8ea0-b38c126e4022",
+          "productId": "8c66224f-9884-494b-9d02-578c446d428e"
+        },
+        {
+          "id": "73283462-dd99-4a73-823c-53c71dccb3c4",
+          "name": "Product 1",
+          "quantity": 1,
+          "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 1",
+          "price": 4,
+          "cartId": "b35c347b-1ee5-4247-8ea0-b38c126e4022",
+          "productId": "52f8c987-5c4d-4128-83c9-fc6830875c72"
+        }
+      ],
+      "customerId": "533674"
+    },
+    {
+      "id": "0c9c9632-3a90-417a-81d0-a1596108cea2",
+      "status": "SUBMITTED",
+      "total": 45,
+      "orderItems": [
+        {
+          "id": "fc7234e3-997c-4fe1-86a8-5350a85bd9d4",
+          "name": "Product 1",
+          "quantity": 1,
+          "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 1",
+          "price": 4,
+          "cartId": "0c9c9632-3a90-417a-81d0-a1596108cea2",
+          "productId": "52f8c987-5c4d-4128-83c9-fc6830875c72"
+        },
+        {
+          "id": "0f7f178f-893b-4e45-97d0-93529ba0e322",
+          "name": "Product 3",
+          "quantity": 1,
+          "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 3",
+          "price": 22,
+          "cartId": "0c9c9632-3a90-417a-81d0-a1596108cea2",
+          "productId": "8c66224f-9884-494b-9d02-578c446d428e"
+        }
+      ],
+      "customerId": "533674"
+    },
+    {
+      "id": "c887de7b-3f6d-4d04-9400-8c648e75422b",
+      "status": "SUBMITTED",
+      "total": 26,
+      "orderItems": [
+        {
+          "id": "c5cc2a11-d60e-4fa5-8902-7b448b4a58ba",
+          "name": "Product 3",
+          "quantity": 1,
+          "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 3",
+          "price": 22,
+          "cartId": "c887de7b-3f6d-4d04-9400-8c648e75422b",
+          "productId": "8c66224f-9884-494b-9d02-578c446d428e"
+        },
+        {
+          "id": "7b78e789-e296-48cf-ac3f-4f766a31af9b",
+          "name": "Product 1",
+          "quantity": 1,
+          "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 1",
+          "price": 4,
+          "cartId": "c887de7b-3f6d-4d04-9400-8c648e75422b",
+          "productId": "52f8c987-5c4d-4128-83c9-fc6830875c72"
+        }
+      ],
+      "customerId": "533674"
+    },
+    {
+      "id": "000a9cbf-06aa-40db-b91f-298c58be3875",
+      "status": "SUBMITTED",
+      "total": 32,
+      "orderItems": [
+        {
+          "id": "cd98cc12-86b5-45da-857b-bc91399c444a",
+          "name": "Product 4",
+          "quantity": 1,
+          "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 4",
+          "price": 18,
+          "cartId": "000a9cbf-06aa-40db-b91f-298c58be3875",
+          "productId": "aa95a8d9-b8fb-4907-9b44-284911d65a44"
+        },
+        {
+          "id": "4900db7c-b54c-4511-906d-c4517e8eee89",
+          "name": "Product 0",
+          "quantity": 1,
+          "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 0",
+          "price": 14,
+          "cartId": "000a9cbf-06aa-40db-b91f-298c58be3875",
+          "productId": "6331d031-c580-4b22-b52f-974bf7a7d9ce"
+        }
+      ],
+      "customerId": "533674"
+    },
+    {
+      "id": "1efa201c-5095-4caf-8dab-63eadeac4f15",
+      "status": "IN_PROCESS",
+      "total": 0,
+      "orderItems": [],
+      "customerId": "533674"
+    }
+  ],
+  "user": [],
+  "order": [],
+  "orderItem": [
+    {
+      "id": "bbee0cea-7858-43c8-970e-be95c7cc59bc",
+      "name": "Product 3",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 3",
+      "price": 22,
+      "cartId": "b35c347b-1ee5-4247-8ea0-b38c126e4022",
+      "productId": "8c66224f-9884-494b-9d02-578c446d428e"
+    },
+    {
+      "id": "73283462-dd99-4a73-823c-53c71dccb3c4",
+      "name": "Product 1",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 1",
+      "price": 4,
+      "cartId": "b35c347b-1ee5-4247-8ea0-b38c126e4022",
+      "productId": "52f8c987-5c4d-4128-83c9-fc6830875c72"
+    },
+    {
+      "id": "c8b311bd-c943-4e28-b601-b648992f28a0",
+      "name": "Product 0",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 0",
+      "price": 14,
+      "cartId": "b35c347b-1ee5-4247-8ea0-b38c126e4022",
+      "productId": "6331d031-c580-4b22-b52f-974bf7a7d9ce"
+    },
+    {
+      "id": "1c243645-59e3-4781-9d1c-20a76ffd44c3",
+      "name": "Product 4",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 4",
+      "price": 18,
+      "cartId": "b35c347b-1ee5-4247-8ea0-b38c126e4022",
+      "productId": "aa95a8d9-b8fb-4907-9b44-284911d65a44"
+    },
+    {
+      "id": "fc7234e3-997c-4fe1-86a8-5350a85bd9d4",
+      "name": "Product 1",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 1",
+      "price": 4,
+      "cartId": "0c9c9632-3a90-417a-81d0-a1596108cea2",
+      "productId": "52f8c987-5c4d-4128-83c9-fc6830875c72"
+    },
+    {
+      "id": "0f7f178f-893b-4e45-97d0-93529ba0e322",
+      "name": "Product 3",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 3",
+      "price": 22,
+      "cartId": "0c9c9632-3a90-417a-81d0-a1596108cea2",
+      "productId": "8c66224f-9884-494b-9d02-578c446d428e"
+    },
+    {
+      "id": "a3751f0c-101b-4df8-aaeb-4e78e838fcfc",
+      "name": "Product 12",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 12",
+      "price": 8,
+      "cartId": "0c9c9632-3a90-417a-81d0-a1596108cea2",
+      "productId": "b96a1728-497d-4e27-91e8-3232959b846b"
+    },
+    {
+      "id": "75dcb8ea-fa92-46c0-aa70-3e4d3e248741",
+      "name": "Product 6",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 6",
+      "price": 11,
+      "cartId": "0c9c9632-3a90-417a-81d0-a1596108cea2",
+      "productId": "8d3dc450-517b-44f0-adfa-603d21aee431"
+    },
+    {
+      "id": "c5cc2a11-d60e-4fa5-8902-7b448b4a58ba",
+      "name": "Product 3",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 3",
+      "price": 22,
+      "cartId": "c887de7b-3f6d-4d04-9400-8c648e75422b",
+      "productId": "8c66224f-9884-494b-9d02-578c446d428e"
+    },
+    {
+      "id": "7b78e789-e296-48cf-ac3f-4f766a31af9b",
+      "name": "Product 1",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 1",
+      "price": 4,
+      "cartId": "c887de7b-3f6d-4d04-9400-8c648e75422b",
+      "productId": "52f8c987-5c4d-4128-83c9-fc6830875c72"
+    },
+    {
+      "id": "cd98cc12-86b5-45da-857b-bc91399c444a",
+      "name": "Product 4",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 4",
+      "price": 18,
+      "cartId": "000a9cbf-06aa-40db-b91f-298c58be3875",
+      "productId": "aa95a8d9-b8fb-4907-9b44-284911d65a44"
+    },
+    {
+      "id": "4900db7c-b54c-4511-906d-c4517e8eee89",
+      "name": "Product 0",
+      "quantity": 1,
+      "image": "https://dummyimage.com/400x400/319431/ffffff.png&text=Product 0",
+      "price": 14,
+      "cartId": "000a9cbf-06aa-40db-b91f-298c58be3875",
+      "productId": "6331d031-c580-4b22-b52f-974bf7a7d9ce"
+    }
+  ]
+}
