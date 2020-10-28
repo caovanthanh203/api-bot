@@ -1,0 +1,9 @@
+FILE_OUT="./_tinh.json"
+TOKEN="2a1c33315256a94217abd9fd4e66f934287ea9e5"
+URL="https://staging.cuuhomientrung.info/api/tinh/?limit=100"
+
+curl -X GET "$URL" -H "Authorization: Token $TOKEN" >> "$FILE_OUT"
+
+bash overrideTinh/run
+
+rm $FILE_OUT

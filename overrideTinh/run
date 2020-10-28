@@ -1,7 +1,7 @@
-cd overrideHodan
+cd overrideTinh
 pwd
 
-INPUT_FILE="../_hodan.json"
+INPUT_FILE="../_tinh.json"
 TARGET_FILE="../db.json"
 LOG_FILE="../log.txt"
 

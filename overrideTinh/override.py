@@ -14,7 +14,7 @@ with open('_input.json') as inputFile:
 
 with open('_target.json') as targetFile:
     targetData = json.load(targetFile)
-    targetData["hodan"] = data;
+    targetData["tinh"] = data;
 
 # data["features"].sort(key=extract_case, reverse=True)
 with open('_output.json', 'w') as outputFile:
