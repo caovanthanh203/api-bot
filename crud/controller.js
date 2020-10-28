@@ -11,6 +11,7 @@ class Controller {
 	build(){
 		this.mockPost('create', this.create.bind(this));
 		this.mockGet('', this.readAll.bind(this));
+		this.mockGet('hot-reload', this.hotReload.bind(this));
 		this.mockGet(':id', this.readById.bind(this));
 		this.mockPost('update/:id', this.update.bind(this));
 		this.mockPost('delete/:id', this.delete.bind(this));
@@ -82,6 +83,15 @@ class Controller {
 		this.getServiceIns().delete(req.params.id)
         .then(() => res.json({}))
         .catch(err => next(err));
+	}
+
+	getRandomInt(max) {
+  		return Math.floor(Math.random() * Math.floor(max));
+	}
+
+	hotReload(req, res, next) {
+  		this.getServiceIns().hotReload();
+  		res.status(200).json({ message: "Reloaded!" });
 	}
 
 }

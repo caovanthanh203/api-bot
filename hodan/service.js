@@ -1,11 +1,12 @@
 const crudService = require('crud/service');
 const DAO = require('./dao');
 const Model = require('./model');
+const config = require('./config.json');
 
 class Service extends crudService{
 	
 	name(){
-		return 'orderItem';
+		return config.serviceName;
 	}
 
 	useDAO(){
@@ -15,13 +16,6 @@ class Service extends crudService{
 	create() {
 		return new Model();
 	}
-
-	async findOrderItemByCartId(cartId) {
-		var filter = {};
-		filter["cartId"] = cartId;
-		return await this.getDAOIns().filterByField(filter);
-	}
-
 
 }
 module.exports = Service;

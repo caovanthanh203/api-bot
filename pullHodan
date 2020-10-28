@@ -1,0 +1,10 @@
+FILE_LOCK="./pull.lock"
+FILE_OUT="./_hodan.json"
+TOKEN="2a1c33315256a94217abd9fd4e66f934287ea9e5"
+URL="https://staging.cuuhomientrung.info/api/hodan/?limit=100"
+
+curl -X GET "$URL" -H "Authorization: Token $TOKEN" >> "$FILE_OUT"
+
+bash overrideHodan/run
+
+rm $FILE_OUT

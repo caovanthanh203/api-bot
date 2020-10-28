@@ -1,11 +1,12 @@
 const crudService = require('crud/service');
 const DAO = require('./dao');
 const Model = require('./model');
+const config = require('./config.json');
 
 class Service extends crudService{
 	
 	name(){
-		return 'product';
+		return config.serviceName;
 	}
 
 	useDAO(){

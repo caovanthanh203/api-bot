@@ -8,12 +8,12 @@ const fs = require('fs')
 
 const path = './db.json'
 
-fs.unlink(path, (err) => {
-  if (err) {
-    console.error(err)
-    return
-  }
-})
+// fs.unlink(path, (err) => {
+//   if (err) {
+//     console.error(err)
+//     return
+//   }
+// })
 
 const inject = require('inject');
 inject();
@@ -36,12 +36,10 @@ app.use(cors());
 // app.use(userControllerIns.build());
 // app.use(todoControllerIns.build());
 // app.use(taskControllerIns.build());
-app.use(categoryControllerIns.build());
-app.use(productControllerIns.build());
-app.use(cartControllerIns.build());
+app.use(hodanControllerIns.build());
+app.use(cuuhoControllerIns.build());
 
-categoryControllerIns.gen();
-productControllerIns.gen();
+// categoryControllerIns.gen();
 // global error handler
 app.use(errorHandler);
 

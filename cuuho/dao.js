@@ -1,13 +1,14 @@
 const crudDAO = require('crud/dao');
+const config = require('./config.json');
 
 class DAO extends crudDAO{
 
 	name(){
-		return 'product';
+		return config.daoName;
 	}
 	
 	useTable (){
-		return 'product';
+		return config.tableName;
 	}
 
 }

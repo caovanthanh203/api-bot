@@ -4,7 +4,7 @@ const adapter = new FileSync('db.json');
 const db = low(adapter);
 const config = require('config.json');
 
-db.defaults(config.schema).write();
+// db.defaults(config.schema).write();
 
 class DAO{
 	
@@ -26,6 +26,15 @@ class DAO{
 
 	readAll() {
 		return db.get(this.useTable()).value();
+	}
+
+	readLimit(from, to) {
+		return db.get(this.useTable()).slice(from, to);
+	}
+
+	readByFilterWithLimit(filter, from, to) {
+		console.log(filter);
+		return db.get(this.useTable()).filter(filter).slice(from, to).value();
 	}
 
 	readById(modelId) {
@@ -63,6 +72,10 @@ class DAO{
 
 	getNextId() {
 		return this.readAll().length;
+	}
+
+	reloadDb() {
+		db.read();
 	}
 
 }

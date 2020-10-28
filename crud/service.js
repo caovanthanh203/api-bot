@@ -29,6 +29,14 @@ class Service{
 		return await this.getDAOIns().readAll();
 	}
 
+	async readLimit(from, to) {
+		return await this.getDAOIns().readLimit(from, to);
+	}
+
+	async readByFilterWithLimit(filter, from, to) {
+		return await this.getDAOIns().readByFilterWithLimit(filter, from, to);
+	}
+
 	async readById(id) {
 		return await this.readByField('id', id);
 	}
@@ -51,6 +59,10 @@ class Service{
 
 	async getNextId(id) {
 		return await this.getDAOIns().getNextId();
+	}
+
+	async hotReload(id) {
+		await this.getDAOIns().reloadDb();
 	}
 
 }
