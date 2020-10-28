@@ -1,1 +1,139 @@
-{"count":1180,"next":"http://staging.cuuhomientrung.info/api/cuuho/?limit=25&offset=25","previous":null,"results":[{"id":9,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:33:36.046000+07:00","name":"Thuyền lớn - Gia Ninh - Duy Ninh - Tân Ninh 2","status":1,"location":"","phone":"0985930974","note":"","thon":null,"volunteer":null},{"id":10,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:34:21.936000+07:00","name":"Thuyền lớn - Gia Ninh - Duy Ninh - Tân Ninh 3","status":1,"location":"","phone":"0968749580","note":"","thon":null,"volunteer":null},{"id":12,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-21T13:22:21.128000+07:00","name":"Thuyền lớn - Gia Ninh - Duy Ninh - Tân Ninh 4 (anh Trung)","status":1,"location":"Hải Ninh","phone":"0968749580","note":"","thon":null,"volunteer":null},{"id":13,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:35:35.270000+07:00","name":"Thuyền lớn - Gia Ninh - Duy Ninh - Tân Ninh 5","status":1,"location":"","phone":"0397580853","note":"","thon":null,"volunteer":null},{"id":14,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:36:03.585000+07:00","name":"Thuyền lớn - Gia Ninh - Duy Ninh - Tân Ninh 6","status":1,"location":"","phone":"0397580853","note":"","thon":null,"volunteer":null},{"id":15,"tinh":null,"tinh_display":"","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:36:53.162000+07:00","name":"Thuyền lớn - Gia Ninh - Duy Ninh - Tân Ninh 7","status":1,"location":"","phone":"0961576908","note":"","thon":null,"volunteer":null},{"id":17,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-21T15:31:09.243000+07:00","name":"Cán bộ đoàn cứu trợ","status":1,"location":"","phone":"0888417686","note":"","thon":null,"volunteer":null},{"id":18,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-21T15:31:45.402000+07:00","name":"Cán bộ đoàn cứu trợ","status":1,"location":"","phone":"0964100235","note":"","thon":null,"volunteer":59},{"id":19,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:41:03.988000+07:00","name":"Anh Dũng - Quanh Dinh 10","status":1,"location":"","phone":"0984551938","note":"CLB Thuyền HN đã vào đến QB","thon":null,"volunteer":null},{"id":20,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:41:48.361000+07:00","name":"Anh Bình Giun - Quanh Dinh 10","status":1,"location":"","phone":"0754757775","note":"CLB Thuyền HN đã vào đến QB","thon":null,"volunteer":null},{"id":21,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-21T15:33:49.754000+07:00","name":"Anh Bình Giun","status":1,"location":"","phone":"0985493818","note":"CLB Thuyền HN đã vào đến QB","thon":null,"volunteer":59},{"id":22,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:42:37.720000+07:00","name":"Anh Thành Lủi","status":1,"location":"","phone":"0982860999","note":"CLB Thuyền HN đã vào đến QB","thon":null,"volunteer":null},{"id":23,"tinh":null,"tinh_display":"","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:42:59.841000+07:00","name":"Anh Hữu Hạnh - Quanh Dinh 10","status":0,"location":"","phone":"0989663567","note":"CLB Thuyền HN đã vào đến QB","thon":null,"volunteer":null},{"id":26,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T10:47:47.986000+07:00","name":"Anh Hùng - xã Cam, Thanh, Hồng","status":1,"location":"","phone":"0372020200","note":"","thon":null,"volunteer":null},{"id":27,"tinh":8,"tinh_display":"Quảng Bình","huyen":186,"huyen_display":"Tỉnh Quảng Bình","xa":null,"xa_display":"","update_time":"2020-10-21T15:38:44.516000+07:00","name":"Anh Nam - Trưởng công an xã Cam","status":1,"location":"Cam Thủy","phone":"0915391259","note":"5 thuyền cứu hộ đang vào","thon":null,"volunteer":59},{"id":35,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T11:00:21.181000+07:00","name":"Cano cứu hộ","status":1,"location":"","phone":"0889987373","note":"","thon":null,"volunteer":null},{"id":38,"tinh":2,"tinh_display":"Quảng Trị","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T11:01:32.869000+07:00","name":"Cana anh em HN và ĐN","status":0,"location":"","phone":"0934441141","note":"","thon":null,"volunteer":null},{"id":39,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T11:01:46.302000+07:00","name":"Cứu hộ Quảng Bình","status":1,"location":"","phone":"0905551358","note":"","thon":null,"volunteer":null},{"id":41,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-21T15:49:58.800000+07:00","name":"Xe cần cẩu xuyên đêm","status":1,"location":"","phone":"0905429999","note":"","thon":null,"volunteer":59},{"id":47,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T11:04:51.313000+07:00","name":"A Mười - VĨNH NINH","status":1,"location":"","phone":"0916392128","note":"","thon":null,"volunteer":null},{"id":48,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-21T15:53:47.406000+07:00","name":"A Phùng - VĨNH NINH","status":1,"location":"Vĩnh Ninh","phone":"0855526707","note":"","thon":null,"volunteer":59},{"id":49,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-21T15:55:19.459000+07:00","name":"A Tỉnh -VĨNH NINH","status":1,"location":"Vĩnh Ninh","phone":"0858642699","note":"","thon":null,"volunteer":59},{"id":50,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T11:05:51.728000+07:00","name":"A Đang - VĨNH NINH","status":1,"location":"","phone":"0918555168","note":"","thon":null,"volunteer":null},{"id":51,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-19T11:06:04.021000+07:00","name":"A Trọng\tHÀM NINH","status":1,"location":"","phone":"0913323637","note":"","thon":null,"volunteer":null},{"id":52,"tinh":3,"tinh_display":"TP Hồ Chí Minh","huyen":null,"huyen_display":"","xa":null,"xa_display":"","update_time":"2020-10-21T15:57:05.200000+07:00","name":"A Hưng - HÀM NINH","status":1,"location":"Hàm Ninh","phone":"0918257937","note":"","thon":null,"volunteer":59}]}
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Just a moment...</title>
+  <style type="text/css">
+    html, body {width: 100%; height: 100%; margin: 0; padding: 0;}
+    body {background-color: #ffffff; color: #000000; font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue",Arial, sans-serif; font-size: 16px; line-height: 1.7em;-webkit-font-smoothing: antialiased;}
+    h1 { text-align: center; font-weight:700; margin: 16px 0; font-size: 32px; color:#000000; line-height: 1.25;}
+    p {font-size: 20px; font-weight: 400; margin: 8px 0;}
+    p, .attribution, {text-align: center;}
+    #spinner {margin: 0 auto 30px auto; display: block;}
+    .attribution {margin-top: 32px;}
+    @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+    @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+    #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+    #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+    #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+    .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+    a { color: #2c7cb0; text-decoration: none; -moz-transition: color 0.15s ease; -o-transition: color 0.15s ease; -webkit-transition: color 0.15s ease; transition: color 0.15s ease; }
+    a:hover{color: #f4a15d}
+    .attribution{font-size: 16px; line-height: 1.5;}
+    .ray_id{display: block; margin-top: 8px;}
+    #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+    #cf-hcaptcha-container { text-align:center;}
+    #cf-hcaptcha-container iframe { display: inline-block;}
+  </style>
+
+    <meta http-equiv="refresh" content="12">
+<script type="text/javascript">
+  //<![CDATA[
+  (function(){
+    
+    window._cf_chl_opt={
+      cvId: "1",
+      cType: "non-interactive",
+      cNounce: "49421",
+      cRay: "5e96d688fcbfd93a",
+      cHash: "d23d62455d86fa0",
+      cFPWv: "g",
+      cRq: {
+        ru: "aHR0cHM6Ly9zdGFnaW5nLmN1dWhvbWllbnRydW5nLmluZm8vYXBpL2N1dWhvLz9saW1pdD0xMDA=",
+        ra: "Y3VybC83LjU4LjA=",
+        rm: "R0VU",
+        d: "Eg2AsYBoLw7V8NEuZ8MHyNyt1ZlO7Fsxt7DERzjyw4e5STlQU/2lbtbt4B/oREhRdWozWe/zGOZqP3H1f+qhDaFwpSkdOShO66w42z/CIbgdcd4Q2+R4Mc919U0GGYXEnncZwCIPd+VCMJlXO2SwdZukXEvjdAin3nNMcdZNkj+beRlkF0lb8hF4rJWfgUyBy7nHQq7ZnhJuoXOBYrjJ62oWPUUDyYTl0UdoDzEre0QLrPDEsiMWzOTibnDWtQt0kh5n7YnWmpimv+1m1Nalf+L9Njs8MQDp1kLAiBPArmKNbqA0mu7+t+zA/7zQunAzDeJY9jAjDm4Xxn06y+k/FWqnijNjGDu6K8/+LPNNJsXjGf3tAg7ADvkDE0hj/aQtdyGnObyg1UtmSR7yQr5dsp0K+DViabgBF+WDTmaORQUPUIfqU1LruDYJrW/YJUJAqkAgrYHvuXihwFDTUg2kfFO7WSowSJNlxDo+Uq9Bs965GhSfOdvtNxTNNU4GJxsDAcwJj+CKMZ0NPEiIFFqEMpnt9KLOPzQ9aFFw+fntHpBgtW4W5FgCRmum6Tw3QJB/z514BRQOJto5DOvG/UA9ksKH+8V6aKw5Iu1tySk46RihuuZp0soO5hKpwbQwpkg+4nX8mTb5deSqEKB8PkTEt0deuYQxcTH6aQ+xMPZcwDib08pQIktBAq10inETiBVjQ61xiJKGwRt9NU5te5ak1XS8LILSQrXWRd8brRHwBPTfo37Sfo6EN22ntxy5wLXVf+Pph6Dx5HtahljA+hRnAGO6ZreuEFiDubDSRitKYUZDpsyv6/JgpBxZytMXjBECyZ8tdsN8BCrpiOT1XlE8IA==",
+        t: "MTYwMzkxMDk3OS45OTMwMDA=",
+        m: "5rQ2XyKRIbiF5e9LGscYXp3r8zd2O0Jd/jVx+ZIBZCw=",
+        i1: "TE3B4EvFksbL/Ab/sb+v1w==",
+        i2: "mU8luPp5yyMnErYHQ6eo3A==",
+        uh: "3eCW9wmHFxRdeO8XVCuzIxmX/hZFk4VAcqHhoWaSI4Q=",
+        hh: "1AT5XPeKxQElgCCqR7EHKIoSfbkeH7pSphlhauPgYlo=",
+      }
+    }
+    window._cf_chl_enter = function(){window._cf_chl_opt.p=1};
+    
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+    b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+    b(function(){
+      var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+      var cookieSupportInfix=cookiesEnabled?'/nocookie':'/cookie';
+      var a = document.getElementById('cf-content');a.style.display = 'block';
+      var isIE = /(MSIE|Trident\/|Edge\/)/i.test(window.navigator.userAgent);
+      var trkjs = isIE ? new Image() : document.createElement('img');
+      trkjs.setAttribute("src", "/cdn-cgi/images/trace/jschal/js"+cookieSupportInfix+"/transparent.gif?ray=5e96d688fcbfd93a");
+      trkjs.id = "trk_jschal_js";
+      trkjs.setAttribute("alt", "");
+      document.body.appendChild(trkjs);
+      
+      var cpo = document.createElement('script');
+      cpo.type = 'text/javascript';
+      cpo.src = "/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1";
+      var done = false;
+      cpo.onload = cpo.onreadystatechange = function() {
+        if (!done && (!this.readyState || this.readyState === "loaded" || this.readyState === "complete")) {
+          done = true;
+          cpo.onload = cpo.onreadystatechange = null;
+          window._cf_chl_enter()
+        }
+      };
+      document.getElementsByTagName('head')[0].appendChild(cpo);
+    
+    }, false);
+  })();
+  //]]>
+</script>
+
+
+</head>
+<body>
+  <table width="100%" height="100%" cellpadding="20">
+    <tr>
+      <td align="center" valign="middle">
+          <div class="cf-browser-verification cf-im-under-attack">
+  <noscript>
+    <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+  <div id="cf-content" style="display:none">
+    
+    <div id="cf-bubbles">
+      <div class="bubbles"></div>
+      <div class="bubbles"></div>
+      <div class="bubbles"></div>
+    </div>
+    <h1><span data-translate="checking_browser">Checking your browser before accessing</span> cuuhomientrung.info.</h1>
+    
+    <div id="no-cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+    <p data-translate="process_is_automatic">This process is automatic. Your browser will redirect to your requested content shortly.</p>
+    <p data-translate="allow_5_secs">Please allow up to 5 seconds&hellip;</p>
+  </div>
+   
+  <form class="challenge-form" id="challenge-form" action="/api/cuuho/?limit=100&amp;__cf_chl_jschl_tk__=cdbf9d2260b27227c2078693fd7b9d24ac06a49a-1603910979-0-AY6eC5D5mlhqZBvCVGaAnwzu4GsAiwJEUyMGJ5SS2410whIBArZ68AGG_H8b_QYMnBNTM0kSfiY7E6dReuYKX4sJwXmr1qmJ8Ru6303JpZCE6RL5EHqZeAwowK0XOIr12bprz2chlBug2FJfaZGCzSllngMmUoiKYz6tSMt1V4sl60YWGTzYfX-CRVq8AW0rCv7j03vQ-OVXKdSV_JHS5fVpdcUWId9ctn2zXX0IR7Q3fRdM9WD3w_zaIA82yj-fDAh4odxJ3iaqMfq4cFYnRRkLydO6XBBu841VmkF8BS0V" method="POST" enctype="application/x-www-form-urlencoded">
+    <input type="hidden" name="r" value="ee4f79ab6e40acecca3c75edbb06e3d069e8761e-1603910979-0-AVgR4NCpoFPj4XqfK2YuTWsKCj8YWluiaqVLJE1DSa7KzyD5juUaje7HhUvMwjmw2ng0eAdeqyqC056LR31fccNHfYXcp8zDh0dKH103ZJJWnqGSw1B2y9SxzeO/ak+8td3J2ZI38WVDjep2t86QelUJG6+sDAQNfUYA9iJGHn3zBHfPo9d1M7NuycplS+xDM048fht/0gE+SGanBbz045OUotY1Lr+EDzPRIMnrPOIB3Q5+dkk95HcnztK3Nr0xLXzGbUkRHmfpghqtmCMiSqTv+uPi7sJLEJG9b97pKeZqQgZQtpw5ZpNCYxWN2agLEh3L6+cA0n76TsDCmmgHXSAMJ+SRaZefIpOpCPNn8PJtNEZ1ez+HXSwQho64CtKYihqiz+F8T1a0cTgUoYOmxj3KnYoR9OFcSLvx26pLHZuphB/kmDIeFArzVfxfMbXOFbkGtjZChS0QrWunG52JxIOQ7wWopZYmfI2IYXjxZPf2tAccyawwcAZhcbDzTiLQWjZuegjH+keCJIQLa0e10pKUWdiRhIu36wMlLVUORYbIlmrGh2L95jdPL0tdI1k9xx8OvYX8tTv7WuLvSB79FQBJF590nwaa224TWFpeilgsNFaraG0ovxomgHzcMrOTPswqPmZjEV21sY2U7Nc5l/APypF0KxlhgLuoYpA5Hz9wZgxMRg3MOgWudXdCoZX5tnFczj3J+gLICVzGIwFoJJUWM1b2QImgrx0T1j6nlBAcNTWuwuCDe0/p+U0xSG4T8mDpHqYqoygRUykSsYZrusK2GM0VVqqgke22pauUdeEJyabYj3Q9qav3RQEMSUrj68JKeoO9jUAjZo59v/7DktzX2vGvSW2SJW6S4LwtswQ2Vz2RPMA3jOfdhmFSD/ne08lE14bGa45N0CJ6MpBbV5yip7vMpQU9TUvgmwJ/t17al2fNGB9X+BzCeDQd8bfH8jq9N+RPgOCXXdrzQ9N4vYwN0ud0hysHuzNun2iPmDcL1T9S4IkV4arQi/9fwlBnx31ofYxuu+k4/P5Jo+YliXBnuURb9pdxTdcIsQPVuLdBjr/6UJWAeBE588fsNjt5JtQY7kayv4Aid1uUcSRYj4+BeCy3/2S3e61aeEWgOdhzAhAn/DSh+chRyO4kyHCn9IXNKjHrwpfXenAXw4/vSPMYLjePt7N/rDiP3R0WLUplgnmNaUlBP4FCVsK1MfhgCVGw6PoQ7vVCz+zAnOUK9VonYTKTTW1ETElqPdHeCCc1b/kMCXn0FVBLKtAFdyzkLYBgPFZeStIqvygyYkYjJQHynSYJL1ql7Xwjy7UikrwsRZvHtmrB+eKnQzsnrLz2t96ey/iAv6D9v77fPDY5a0LmFjA36DGRMBW/W2IxzFHWwysesfd4ZoDWhcNrLtfmez+gZxvQeABsphgs1SF4V1nqrrdQuP05pgYo4/JnoWYWbW35BdNs2nWgocWfsSSvjAAaoUjWqphohQzl7N1qyOXo1gdSVoMbNsFrza/mrABovLg0H7EipUpdwjPszsyvfpj92a4ibRmEa4JAwfnW1+BpAp7u1dpirmJnQPThkekqQ1gnUk0O4WiKMGpbWwnvV4PDRm7Q7W/GxkaQ+pu0H+st9PaUdgNQKFwuOeb/GE1uvmFQr+G7kZ9RcAhPZrFV+uwSGbzuRZXLdY75PtezwMVV3YcNI3D4HfSwG67x4gAXSRND8p5lvb6RBkQYNQQ+P0suCFJgbPd3mev0J+owqT3XL92w+racXqa4Dc1UTK9HrBW3Ji8/rVyTkMN/BuxzyIqZR8gzyS+0ZvQYDd6wuS+V0ZK2/VtVXuxJxujdL98/Zo+LSr5ET4MizpzV5F8RO421GuG2ldhatIzM6XxEPb2UzIrpwUTiHoVZwrvnXHKF"/>
+    <input type="hidden" value="8a90bd2b1ef4d9ec89ec9fbde8cdbacd" id="jschl-vc" name="jschl_vc"/>
+    <!-- <input type="hidden" value="" id="jschl-vc" name="jschl_vc"/> -->
+    <input type="hidden" name="pass" value="1603910983.993-E/Sr+97uSf"/>
+    <input type="hidden" id="jschl-answer" name="jschl_answer"/>
+  </form>
+  
+  <div id="trk_jschal_nojs" style="background-image:url('/cdn-cgi/images/trace/jschal/nojs/transparent.gif?ray=5e96d688fcbfd93a')"> </div>
+</div>
+
+          
+          <div class="attribution">
+            DDoS protection by <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing/" target="_blank">Cloudflare</a>
+            <br />
+            <span class="ray_id">Ray ID: <code>5e96d688fcbfd93a</code></span>
+          </div>
+      </td>
+     
+    </tr>
+  </table>
+</body>
+</html>
