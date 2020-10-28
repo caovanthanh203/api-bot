@@ -3,6 +3,11 @@ const config = require('./config.json');
 
 class Controller extends crudController{
 
+	build(){
+		this.mockGet('gen', this.gen.bind(this));
+		return super.build();
+	}
+
 	usePrefix(){
 		return config.usePrefix;
 	}
@@ -11,16 +16,16 @@ class Controller extends crudController{
 		return cuuhoServiceIns;
 	}
 
-	gen() {
-		console.log("gen hodan");
+	gen(req, res, next) {
+		console.log("gen cuuho");
 		let model;
-		for (var i = 1; i < 100; i++) {
+		for (var i = 1; i < 30; i++) {
 			model = this.getServiceIns().create();
 			model.id = i;
-			model.update_time = Date.now();
-			model.status = this.getRandomInt(8);
+			model.update_time = "2020-10-28T19:37:07.124516+07:00";
+			model.status = this.getRandomInt(4);
 
-			model.name = "Ho dan " + i;
+			model.name = "Cuu ho " + i;
 			model.phone = "012345678" + i;
 			model.volunteer = null;
 			model.cuuho = null;
@@ -30,11 +35,12 @@ class Controller extends crudController{
 
 			model.location = null;
 			model.tinh = this.getRandomInt(10);
-			model.huyen = this.getRandomInt(10);
-			model.xa = this.getRandomInt(10);
+			model.huyen = this.getRandomInt(100);
+			model.xa = this.getRandomInt(1000);
 			model.thon = null;
 			this.getServiceIns().save(model);
 		}
+        return res.status(200).json({ message: "Finished!" });
 	}
 
 	readAll(req, res, next) {

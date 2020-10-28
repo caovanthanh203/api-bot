@@ -1,0 +1,22 @@
+cd overrideHodan
+pwd
+
+INPUT_FILE="../_hodan.json"
+TARGET_FILE="../db.json"
+LOG_FILE="../log.txt"
+
+echo "Ok!!START OVERRIDE"
+cp $INPUT_FILE ./_input.json
+cp $TARGET_FILE ./_target.json
+python ./override.py
+
+if (json_verify -q < ./_output.json)
+then
+	echo "RELEASE OVERRIDE"
+	cp ./_output.json $TARGET_FILE
+else
+	bash "$CONTEXT/redMessage" "$1 structure check failed"
+	echo "NOT OVERRIDE"
+	LOG="OVERRIDE $INPUT_FILE"
+	echo $LOG >> $LOG_FILE
+fi

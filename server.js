@@ -38,6 +38,9 @@ app.use(cors());
 // app.use(taskControllerIns.build());
 app.use(hodanControllerIns.build());
 app.use(cuuhoControllerIns.build());
+app.use(tinhControllerIns.build());
+app.use(huyenControllerIns.build());
+app.use(xaControllerIns.build());
 
 // categoryControllerIns.gen();
 // global error handler

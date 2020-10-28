@@ -13,31 +13,17 @@ class Controller extends crudController{
 	}
 
 	useService(){
-		return hodanServiceIns;
+		return huyenServiceIns;
 	}
 
 	gen(req, res, next) {
-		console.log("gen hodan");
+		console.log("gen huyen");
 		let model;
-		for (var i = 1; i < 500; i++) {
+		for (var i = 1; i < 100; i++) {
 			model = this.getServiceIns().create();
 			model.id = i;
-			model.update_time = "2020-10-28T19:37:07.124516+07:00";
-			model.status = this.getRandomInt(10) + 1;
-
-			model.name = "Ho dan " + i;
-			model.phone = "012345678" + i;
-			model.volunteer = null;
-			model.cuuho = null;
-
-			model.geo_longtitude = null;
-			model.geo_latitude = null;
-
-			model.location = null;
-			model.tinh = this.getRandomInt(10);
-			model.huyen = this.getRandomInt(10);
-			model.xa = this.getRandomInt(10);
-			model.thon = null;
+			model.tinh = this.getRandomInt(10) + 1;
+			model.name = "H " + i + " of T " + model.tinh;
 			this.getServiceIns().save(model);
 		}
         return res.status(200).json({ message: "Finished!" });
@@ -46,17 +32,14 @@ class Controller extends crudController{
 	readAll(req, res, next) {
 		var filter = {};
 		var page = req.query.page?req.query.page:1;
-		var limit = req.query.limit?req.query.limit:20;
+		var limit = req.query.limit?req.query.limit:99999;
 		var start = (page > 0)?page - 1:0;
 		var end = page>1?page:1;
 		limit = limit > 0?limit:20;
 		
-		if (parseInt(req.query.status)) filter["status"] = parseInt(req.query.status);
-		if (parseInt(req.query.tinh)) filter["tinh"] = parseInt(req.query.tinh);
-		if (parseInt(req.query.huyen)) filter["huyen"] = parseInt(req.query.huyen);
-		if (parseInt(req.query.xa)) filter["xa"] = parseInt(req.query.xa);
+		filter["tinh"] = parseInt(req.query.tinh)? parseInt(req.query.tinh) : -1;
 
-		this.getServiceIns().readByFilterWithLimit(filter, start*limit, end*limit)
+		this.getServiceIns().readByFilterNoLimit(filter)
         .then(models => res.json({
         	"results": models
         }))
