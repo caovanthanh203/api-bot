@@ -41,9 +41,5 @@ pull.lock
 log.txt
 
 *.json
-
-overrideCuuho/*.json
-overrideHodan/*.json
-overrideTinh/*.json
-overrideHuyen/*.json
-overrideXa/*.json
+!config.json
+!package.json
