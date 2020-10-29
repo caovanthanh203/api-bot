@@ -1,5 +1,13 @@
+#cd /home/ubuntu/cuuhomientrung-api
+
 declare -x TOKEN="2a1c33315256a94217abd9fd4e66f934287ea9e5"
 declare -x DOMAIN="https://staging.cuuhomientrung.info/api"
+
+#prod
+#declare -x TOKEN="8bd52d19c6e11a4265885804718403c6b388eca8"
+#declare -x DOMAIN="https://cuuhomientrung.info/api"
+
+#declare -x DOMAIN="https://chmt-https.hamatim.com"
 declare -x LIMIT=100
 
 FILE_LOCK="./pull.lock"
@@ -12,6 +20,8 @@ else
 	
 	bash pullHodan
 	bash pullCuuho
+
+	#curl http://localhost:5000/hodan/hot-reload
 
 	echo "#####################################################################################################################################################"
 	rm "$FILE_LOCK"

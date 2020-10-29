@@ -36,3 +36,34 @@ typings
 
 # Optional REPL history
 .node_repl_history
+
+pull.lock
+db.json
+hodan.json
+log.txt
+
+_hodan.json
+_cuuho.json
+_tinh.json
+_huyen.json
+_xa.json
+
+overrideCuuho/_input.json
+overrideCuuho/_target.json
+overrideCuuho/_output.json
+
+overrideHodan/_input.json
+overrideHodan/_target.json
+overrideHodan/_output.json
+
+overrideTinh/_input.json
+overrideTinh/_target.json
+overrideTinh/_output.json
+
+overrideHuyen/_input.json
+overrideHuyen/_target.json
+overrideHuyen/_output.json
+
+overrideXa/_input.json
+overrideXa/_target.json
+overrideXa/_output.json
