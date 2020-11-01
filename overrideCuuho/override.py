@@ -55,6 +55,6 @@ with open('_target.json') as targetFile:
     targetData["cuuho"] = currentData;
 
 # print(parse(data[1]["update_time"]).datetime())
-targetData["cuuho"].sort(key=extract_case, reverse=True)
+targetData["cuuho"].sort(key=timestamp, reverse=True)
 with open('_output.json', 'w') as outputFile:
     json.dump(targetData, outputFile)
