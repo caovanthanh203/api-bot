@@ -23,14 +23,14 @@ with open('_input.json') as inputFile:
 
 with open('_target.json') as targetFile:
     targetData = json.load(targetFile)
-    currentData = targetData["hodan"]
-    if (len(currentData) == 0):
-        currentData = data
-    else:
-        while len(data) > 0:
-            currentData = updateOrInsert(currentData, data.pop())
-            pass
-    targetData["hodan"] = currentData;
+    # currentData = targetData["hodan"]
+    # if (len(currentData) == 0):
+    #     currentData = data
+    # else:
+    #     while len(data) > 0:
+    #         currentData = updateOrInsert(currentData, data.pop())
+    #         pass
+    targetData["hodan"] = data;
 
 # data["features"].sort(key=extract_case, reverse=True)
 with open('_output.json', 'w') as outputFile:

@@ -45,14 +45,14 @@ with open('_input.json') as inputFile:
 
 with open('_target.json') as targetFile:
     targetData = json.load(targetFile)
-    currentData = targetData["cuuho"]
-    if (len(currentData) == 0):
-        currentData = data
-    else:
-        while len(data) > 0:
-            currentData = updateOrInsert(currentData, data.pop())
-            pass
-    targetData["cuuho"] = currentData;
+    # currentData = targetData["cuuho"]
+    # if (len(currentData) == 0):
+    #     currentData = data
+    # else:
+    #     while len(data) > 0:
+    #         currentData = updateOrInsert(currentData, data.pop())
+    #         pass
+    targetData["cuuho"] = data;
 
 # print(parse(data[1]["update_time"]).datetime())
 targetData["cuuho"].sort(key=extract_case, reverse=True)
