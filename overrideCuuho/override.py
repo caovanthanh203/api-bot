@@ -39,9 +39,9 @@ def timestamp(string):
 with open('_input.json') as inputFile:
     inputData = json.load(inputFile)
     data = inputData["results"];
-    for index, item in enumerate(data):
+    for item in enumerate(data):
     	item["timestamp"] = timestamp(item["update_time"])
-    	data[index] = item
+    	currentData.insert(0, item)
 
 with open('_target.json') as targetFile:
     targetData = json.load(targetFile)
@@ -52,7 +52,7 @@ with open('_target.json') as targetFile:
     #     while len(data) > 0:
     #         currentData = updateOrInsert(currentData, data.pop())
     #         pass
-    targetData["cuuho"] = data;
+    targetData["cuuho"] = currentData;
 
 # print(parse(data[1]["update_time"]).datetime())
 targetData["cuuho"].sort(key=extract_case, reverse=True)
