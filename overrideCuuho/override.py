@@ -39,7 +39,7 @@ def timestamp(string):
 with open('_input.json') as inputFile:
     inputData = json.load(inputFile)
     data = inputData["results"];
-    for item in enumerate(data):
+    for item in data:
     	item["timestamp"] = timestamp(item["update_time"])
     	currentData.insert(0, item)
 
