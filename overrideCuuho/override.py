@@ -2,7 +2,7 @@ import json
 import datetime
 
 data = {}
-currentData = {}
+currentData = []
 
 def updateOrInsert(array, record):
     try:
@@ -18,7 +18,7 @@ def updateOrInsert(array, record):
     except TypeError:
         return array
 
-def extract_case(json):
+def extract_timestamp(json):
     try:
         return json["timestamp"]
     except KeyError:
@@ -55,6 +55,6 @@ with open('_target.json') as targetFile:
     targetData["cuuho"] = currentData;
 
 # print(parse(data[1]["update_time"]).datetime())
-targetData["cuuho"].sort(key=timestamp, reverse=True)
+targetData["cuuho"].sort(key=extract_timestamp, reverse=True)
 with open('_output.json', 'w') as outputFile:
     json.dump(targetData, outputFile)
