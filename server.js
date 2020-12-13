@@ -7,6 +7,8 @@ const errorHandler = require('helper/errorHandlers');
 const fs = require('fs')
 const path = './db.json'
 const config = require('./config.json');
+const request = require('request');
+const jwt = require('helper/jwt');
 
 console.log(config);
 
@@ -60,7 +62,7 @@ config["routes"].forEach(function(route){
 })
 
 // use JWT auth to secure the api
-// app.use(jwt());
+app.use(jwt());
 
 // api routes
 // app.use(userControllerIns.build());
@@ -72,6 +74,16 @@ config["routes"].forEach(function(route){
 // app.use(tinhControllerIns.build());
 // app.use(huyenControllerIns.build());
 // app.use(xaControllerIns.build());
+app.get('/test', async (req, res) => {
+	request("http://localhost:5000/tinh/", (error1, response1, body1) => {
+		request("http://localhost:5000/order/", (error2, response2, body2) => {
+			response1 = JSON.parse(body1);
+			response2 = JSON.parse(body2);
+			response1.payment = response2;
+			res.send(response1);
+		});
+	});
+});
 
 // categoryControllerIns.gen();
 // global error handler
