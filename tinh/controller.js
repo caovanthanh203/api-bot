@@ -1,5 +1,4 @@
 const crudController = require('crud/controller');
-const config = require('./config.json');
 
 class Controller extends crudController{
 
@@ -8,21 +7,14 @@ class Controller extends crudController{
 		return super.build();
 	}
 
-	usePrefix(){
-		return config.usePrefix;
-	}
-
-	useService(){
-		return tinhServiceIns;
-	}
-
 	gen(req, res, next) {
 		console.log("gen tinh");
 		let model;
 		for (var i = 1; i < 10; i++) {
-			model = this.getServiceIns().create();
+			model = this.getServiceIns().createModel();
 			model.id = i;
 			model.name = "Tinh " + i;
+			console.log(model);
 			this.getServiceIns().save(model);
 		}
         return res.status(200).json({ message: "Finished!" });

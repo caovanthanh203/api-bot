@@ -1,8 +1,0 @@
-FILE_OUT="./_huyen.json"
-URL="$DOMAIN/huyen/?limit=$LIMIT"
-
-curl -X GET "$URL" -H "Authorization: Token $TOKEN" >> "$FILE_OUT"
-
-bash overrideHuyen/run
-
-rm $FILE_OUT

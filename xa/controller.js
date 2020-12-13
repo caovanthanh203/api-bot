@@ -1,5 +1,4 @@
 const crudController = require('crud/controller');
-const config = require('./config.json');
 
 class Controller extends crudController{
 
@@ -8,22 +7,14 @@ class Controller extends crudController{
 		return super.build();
 	}
 
-	usePrefix(){
-		return config.usePrefix;
-	}
-
-	useService(){
-		return xaServiceIns;
-	}
-
 	gen(req, res, next) {
-		console.log("gen xa");
+		console.log("gen tinh");
 		let model;
-		for (var i = 1; i < 1000; i++) {
-			model = this.getServiceIns().create();
+		for (var i = 1; i < 10; i++) {
+			model = this.getServiceIns().createModel();
 			model.id = i;
-			model.huyen = this.getRandomInt(100) + 1;
-			model.name = "X " + i + " of H " + model.huyen;
+			model.name = "Tinh " + i;
+			console.log(model);
 			this.getServiceIns().save(model);
 		}
         return res.status(200).json({ message: "Finished!" });
@@ -37,7 +28,10 @@ class Controller extends crudController{
 		var end = page>1?page:1;
 		limit = limit > 0?limit:20;
 		
-		filter["huyen"] = parseInt(req.query.huyen)? parseInt(req.query.huyen) : -1;
+		// if (parseInt(req.query.status)) filter["status"] = parseInt(req.query.status);
+		// if (parseInt(req.query.tinh)) filter["tinh"] = parseInt(req.query.tinh);
+		// if (parseInt(req.query.huyen)) filter["huyen"] = parseInt(req.query.huyen);
+		// if (parseInt(req.query.xa)) filter["xa"] = parseInt(req.query.xa);
 
 		this.getServiceIns().readByFilterNoLimit(filter)
         .then(models => res.json({

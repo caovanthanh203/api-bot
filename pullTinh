@@ -1,8 +1,0 @@
-FILE_OUT="./_tinh.json"
-URL="$DOMAIN/tinh/?limit=$LIMIT"
-
-curl -X GET "$URL" -H "Authorization: Token $TOKEN" >> "$FILE_OUT"
-
-bash overrideTinh/run
-
-rm $FILE_OUT

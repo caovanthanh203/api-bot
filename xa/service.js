@@ -1,20 +1,15 @@
 const crudService = require('crud/service');
-const DAO = require('./dao');
-const Model = require('./model');
-const config = require('./config.json');
 
 class Service extends crudService{
 	
-	name(){
-		return config.serviceName;
-	}
-
-	useDAO(){
-		return new DAO();
-	}
-
-	create() {
-		return new Model();
+	async create(res){
+		console.log(res);
+		let model;
+		model = this.createModel();
+		model.name = res.name;
+		console.log(model);
+		// model.validate();
+		return await this.save(model);
 	}
 
 }

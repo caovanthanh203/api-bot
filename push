@@ -1,5 +1,0 @@
-scp _cuuho.json ubuntu@52.77.111.184:./cuuhomientrung-api
-scp _hodan.json ubuntu@52.77.111.184:./cuuhomientrung-api
-#scp _tinh.json ubuntu@52.77.111.184:./cuuhomientrung-api
-#scp _huyen.json ubuntu@52.77.111.184:./cuuhomientrung-api
-#scp _xa.json ubuntu@52.77.111.184:./cuuhomientrung-api

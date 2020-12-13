@@ -4,7 +4,8 @@ const service = require('crud/service');
 
 class Controller {
 
-	constructor(){
+	constructor(route){
+		this.route = route;
 		console.log('create ' + this.format('') + ' controller');
 	}
 
@@ -38,7 +39,7 @@ class Controller {
 	}
 
 	useService() {
-		return new service();
+		return services[this.usePrefix()];
 	}
 
 	getService(){
@@ -50,7 +51,7 @@ class Controller {
 	}
 
 	usePrefix(){
-		return 'base';
+		return this.route;
 	}
 
 	create(req, res, next) {

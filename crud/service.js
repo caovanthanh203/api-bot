@@ -1,17 +1,15 @@
-const DAO = require('crud/dao');
-
 class Service{
-
-	constructor () {
+	constructor (route) {
+		this.route = route;
 		console.log('create ' + this.name() + ' service');
 	}
 
 	name(){
-		return 'base';
+		return this.route;
 	}
 
 	useDAO() {
-		return new DAO();
+		return daos[this.name()];
 	}
 
 	getDAOIns(){
@@ -19,6 +17,10 @@ class Service{
 			this.daoIns = this.useDAO();
 		}
 		return this.daoIns;
+	}
+
+	createModel() {
+		return new models[this.name()]();
 	}
 	
 	async save(model) {

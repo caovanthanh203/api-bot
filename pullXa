@@ -1,8 +1,0 @@
-FILE_OUT="./_xa.json"
-URL="$DOMAIN/xa/?limit=$LIMIT"
-
-curl -X GET "$URL" -H "Authorization: Token $TOKEN" >> "$FILE_OUT"
-
-bash overrideXa/run
-
-rm $FILE_OUT

@@ -8,16 +8,17 @@ db.defaults(config.schema).write();
 
 class DAO{
 	
-	constructor () {
+	constructor (route) {
+		this.route = route;
 		console.log('create ' + this.name() + ' dao');
 	}
 
 	name(){
-		return 'base';
+		return this.route;
 	}
 
 	useTable(){
-		return 'base';
+		return this.route;
 	}
 	
 	save(model) {
