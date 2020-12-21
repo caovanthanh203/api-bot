@@ -9,6 +9,7 @@ const path = './db.json'
 const config = require('./config.json');
 const request = require('request');
 const jwt = require('helper/jwt');
+const cognito = require('helper/cognito');
 
 console.log(config);
 
@@ -30,14 +31,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
 
-// var myLogger = function check(req, res, next) {
-//   	console.log('LOGGED')
-//   	// err = new Error();
-//   	// err.name = "UnauthorizedError";
-//   	next()
-// }
-// 
-// 
+var myLogger = function check(req, res, next) {
+  	console.log('LOGGED')
+  	err = new Error();
+  	err.name = "UnauthorizedError";
+  	next();
+}
+
+app.use(myLogger);
+app.use(cognito);
+
 global.services = {};
 global.daos = {};
 global.models = {};
@@ -62,7 +65,8 @@ config["routes"].forEach(function(route){
 })
 
 // use JWT auth to secure the api
-app.use(jwt());
+// app.use(jwt());
+// app.use(cognito);
 
 // api routes
 // app.use(userControllerIns.build());
