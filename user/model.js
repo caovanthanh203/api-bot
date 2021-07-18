@@ -4,8 +4,10 @@ class Model extends crudModel{
 	constructor(){
 		super();
 		this.username = '';
-		this.firstName = '';
-		this.lastName = '';
+		this.firstname = '';
+		this.lastname = '';
+		this.lastname = '';
+		this.birthdate = '';
 	}
 }
 

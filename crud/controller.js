@@ -20,12 +20,12 @@ class Controller {
 	}
 
 	mockGet(route, action){
-		console.log('mock ' + this.format(route) + ' endpoint');
+		console.log('[GET] mock ' + this.format(route) + ' endpoint');
 		router.get(this.format(route), action);
 	}
 
 	mockPost(route, action){
-		console.log('mock ' + this.format(route) + ' endpoint');
+		console.log('[POST] mock ' + this.format(route) + ' endpoint');
 		router.post(this.format(route), action);
 	}
 

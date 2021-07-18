@@ -39,7 +39,7 @@ var myLogger = function check(req, res, next) {
 }
 
 app.use(myLogger);
-app.use(cognito);
+// app.use(cognito);
 
 global.services = {};
 global.daos = {};
@@ -49,6 +49,8 @@ service = null;
 dao = null;
 model = null;
 controller = null;
+
+app.use(jwt());
 
 config["routes"].forEach(function(route){
 	controller = require(route + '/controller');
@@ -65,7 +67,6 @@ config["routes"].forEach(function(route){
 })
 
 // use JWT auth to secure the api
-// app.use(jwt());
 // app.use(cognito);
 
 // api routes

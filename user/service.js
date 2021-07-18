@@ -6,7 +6,9 @@ const config = require('config.json');
 class Service extends crudService{
 
 	async login(username, password) {
+		console.log("login " + username + " - " + password);
 		const user = await super.readByField('username', username);
+		console.log(user);
 		if (user && bcrypt.compareSync(password, user.hash)) {
 			const token = jwt.sign({ sub: user.id }, config.secret);
 			return {
@@ -18,7 +20,7 @@ class Service extends crudService{
 
 	async create(model){
 
-		console.log(await super.readByField('username', model.username));
+		// console.log(await super.readByField('username', model.username));
 
 		if (await super.readByField('username', model.username)) {
 			throw 'Username "' + model.username + '" is already taken';
@@ -26,8 +28,8 @@ class Service extends crudService{
 
 		let user = this.createModel();
 		user.username = model.username;
-		user.firstName = model.firstName;
-		user.lastName = model.lastName;
+		user.firstname = model.firstname;
+		user.lastname = model.lastname;
 
 		if (model.password) {
 			user.hash = bcrypt.hashSync(model.password, 10);

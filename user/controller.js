@@ -1,9 +1,11 @@
 const crudController = require('crud/controller');
+const faker = require('faker');
 
 class Controller extends crudController{
 
 	build(){
 		this.mockPost('login', this.login.bind(this));
+		this.mockPost('gen', this.gen.bind(this));
 		return super.build();
 	}
 
@@ -36,6 +38,21 @@ class Controller extends crudController{
 	reloadDb(req, res, next) {
 		this.getServiceIns().reloadDb();
         return res.status(200).json({ message: "Reloaded!" });
+	}
+
+	gen(req, res, next) {
+		console.log("gen users");
+		let user;
+		for (var i = 1; i < 10; i++) {
+			user = this.getServiceIns().createModel();
+			user.username = faker.internet.userName();
+			user.firstname = faker.name.firstName();
+			user.lastname = faker.name.lastName();
+			user.password = "12345678";
+			console.log(user);
+			this.getServiceIns().create(user);
+		}
+        return res.status(200).json({ message: "Finished!" });
 	}
 	
 }
