@@ -21,9 +21,17 @@ class Service extends crudService{
 	async create(model){
 
 		// console.log(await super.readByField('username', model.username));
-
+		// 
 		if (await super.readByField('username', model.username)) {
 			throw 'Username "' + model.username + '" is already taken';
+		}
+
+		if (!model.username || !model.password) {
+			throw 'Username or password can not be empty!';
+		}
+
+		if (!(model.password_confirmation == model.password)) {
+			throw 'Password and password confirmation not match!';
 		}
 
 		let user = this.createModel();
