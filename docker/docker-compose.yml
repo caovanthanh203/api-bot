@@ -1,14 +1,12 @@
 version: "3"
-volumes:
-  appvolume:
 services:
   bot-api:
-    container_name: bot-api
-    build: .
+    container_name: ${APPLICATION}-api
+    build: ${DOCKERFILE_DIR}
     ports:
-      - "8080:5000"
+      - "${HOST_PORT}:5000"
     volumes:
-      - ../:/var/run/bot/api
+      - ${HOST_WORKING_DIR}:/var/run/bot/api
     # ports: ["${BEANSTALKD_HOST_PORT}"]
   # sphinxsearch:
   #   container_name: ${APPLICATION}-sphinxsearch-local

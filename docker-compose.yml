@@ -1,0 +1,9 @@
+version: "3"
+services:
+  bot-api:
+    container_name: ${APPLICATION}-api
+    build: ${DOCKERFILE_DIR}
+    ports:
+      - "${HOST_PORT}:5000"
+    volumes:
+      - ${HOST_WORKING_DIR}:/var/run/bot/api
