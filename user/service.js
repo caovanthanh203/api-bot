@@ -23,15 +23,15 @@ class Service extends crudService{
 		// console.log(await super.readByField('username', model.username));
 		// 
 		if (await super.readByField('username', model.username)) {
-			throw 'Username "' + model.username + '" is already taken';
+			throw 'Tài khoản "' + model.username + '" đã được đăng ký rồi';
 		}
 
 		if (!model.username || !model.password) {
-			throw 'Username or password can not be empty!';
+			throw 'Tài khoản và mật khẩu là bắt buộc!';
 		}
 
 		if (!(model.password_confirmation == model.password)) {
-			throw 'Password and password confirmation not match!';
+			throw 'Mật khẩu và mật khẩu xác nhận không khớp!';
 		}
 
 		let user = this.createModel();
