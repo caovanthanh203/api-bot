@@ -9,7 +9,7 @@ const path = './db.json'
 const config = require('./config.json');
 const request = require('request');
 const jwt = require('helper/jwt');
-const cognito = require('helper/cognito');
+// const cognito = require('helper/cognito');
 
 console.log(config);
 
@@ -50,7 +50,7 @@ dao = null;
 model = null;
 controller = null;
 
-app.use(jwt());
+// app.use(jwt());
 
 config["routes"].forEach(function(route){
 	controller = require(route + '/controller');

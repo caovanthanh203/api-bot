@@ -9,7 +9,7 @@
     },
     "scripts": {
         "start": "node ./server.js",
-        "start-dev": "nodemon ./server.js",
+        "docker": "nodemon --legacy-watch --ignore db.json start",
         "test": "echo Not implement yet!"
     },
     "dependencies": {

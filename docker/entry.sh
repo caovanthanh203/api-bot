@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 echo "Bot api running..."
-nodemon --ignore db.json start
+npm run docker
 #nodemon --ignore db.json start

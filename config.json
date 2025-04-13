@@ -8,6 +8,8 @@
         "user":[]
     },
     "routes": [
-        "user"
+        "user",
+        "tinh",
+        "order"
     ]
 }
